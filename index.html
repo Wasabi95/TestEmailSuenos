@@ -56,14 +56,19 @@ a[x-apple-data-detectors] {
   table.bp { display:inline-block!important }
   table.bp td { display:inline-block!important }
 }
- @media only screen and (max-width: 600px) {
-    .stack-column {
+@media (max-width: 600px) {
+    .social-container {
       display: block !important;
-      width: 100% !important;
-      text-align: center !important;
+      text-align: center;
     }
-    .stack-column img {
-      margin-bottom: 10px !important;
+    .seguenos-text {
+      display: block;
+      margin-bottom: 15px;
+    }
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
     }
   }
 </style>
